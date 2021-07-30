@@ -1,24 +1,30 @@
-# Transformacion de coordenadas a CTM12
+# Conversión de coordenadas al Origen Nacional
 
-_Script para la tranformación de coordenadas al nuevo origen único Colombia_
+_Herramienta Toolbox de ArcGIS para la conversión de coordenadas al nuevo origen único nacional de Colombia_
 
 ### Pre-requisitos 📋
 
-Que se necesita para ejecutar el código
+Que se necesita para ejecutar la herramienta
 
 ```
 * Tener ArcGIS vesión superior 10.X
-* Python ejecutandose de la linea de comando
+```
+
+Condiciones:
+
+```
+* Solo permite convertir Feature Classes
+* No lee datasets en las Geodatabase, se debe especificar el dataset para que la herramienta pueda listar los Feature Classes
 ```
 
 ### Modo de uso 🔧
 
-_Se puede ejectar por medio de la linea de comandos de windows (CMD) de la siguiente forma:_
+_Siga los siguientes pasos:_
 ```
-* [Syntax] : python project_CTM12.py dirbase dirout
-* [dirbase] : folder donde se encuentran los Feature Class
-* [dirout] : folder donde se guardaran las salidas procesadas
-* [Ejemplo de ejecución] : python D:\CORANTIOQUIA\Scripts\project_CTM12.py D:\CORANTIOQUIA\DATA\shp D:\CORANTIOQUIA\DATA\out
+* [1. Descargar] : Descargue todo el contenido de archivos desde está página en la opción que dice: "DOWNLOAD ZIP"
+* [2. Descomprimir] : Descomprima el archivo ZIP en un folder
+* [3. Abra ArcGIS o ArcCartalog] : Navegue donde descomprimió el archivo y ejecute el Toolbox
+* [4. Ejecutar herramienta] : Ingrese los parámetros como folder o geodatabase donde se localizan los FeatureClasses y luego elija el folder donde se guardaran los nuevos Feature Classes
 ```
 
 ## Construido con 🛠️
