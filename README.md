@@ -24,7 +24,7 @@ _Siga los siguientes pasos:_
 * [1. Descargar] : Descargue todo el contenido de archivos desde está página en la opción que dice: "DOWNLOAD ZIP"
 * [2. Descomprimir] : Descomprima el archivo ZIP en un folder
 * [3. Abra ArcGIS o ArcCartalog] : Navegue donde descomprimió el archivo y ejecute el Toolbox
-* [4. Ejecutar herramienta] : Ingrese los parámetros como folder o geodatabase donde se localizan los FeatureClasses y luego elija el folder donde se guardaran los nuevos Feature Classes
+* [4. Ejecutar herramienta] : Ingrese los parámetros: folder o geodatabase donde se localizan los FeatureClasses y luego elija el folder o geodatabse donde se guardaran los nuevos Feature Classes
 ```
 
 ## Construido con 🛠️
